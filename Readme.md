@@ -1,42 +1,84 @@
-# **RFM Cohort Analysis**
+# RFM & Cohort Analysis for Customer Segmentation
 
-# **Overview**
+This project applies **RFM (Recency, Frequency, Monetary)** Analysis and **Cohort Analysis** on customer transaction data to segment customers, measure retention rates, and derive actionable insights for business growth and marketing strategy.
 
-This project applies **RFM Analysis** and **Cohort Analysis** to segment customers, measure retention, and derive actionable marketing insights.  
-It provides a structured Python-based workflow to understand **customer lifetime value (CLV)** and **retention behavior**.
+---
 
-#  **Requirements**
+## Project Objective
 
-pip install pandas numpy matplotlib seaborn jupyter
+The objective of this project is to:
+- Perform customer segmentation using **RFM analysis**
+- Track customer retention over time using **cohort analysis**
+- Visualize trends in customer behavior
+- Identify high-value customers and churn risk segments
+- Support data-driven decisions for marketing and retention strategies
 
-# **How to Run**
+RFM (Recency, Frequency, Monetary) helps segment customers based on how recently and frequently they purchase and how much they spend. :contentReference[oaicite:0]{index=0}  
+Cohort analysis groups users with shared characteristics to observe behavior over time. :contentReference[oaicite:1]{index=1}
 
-1. Open RFM Cohort Analysis.ipynb in Jupyter Notebook.
+---
 
-2. Execute all cells sequentially.
+## Tech Stack
 
-3. Review visual outputs (heatmaps, tables, charts).
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-# **Features**
+---
 
-* Data cleaning & preprocessing
+## Dataset
 
-* RFM metric computation (Recency, Frequency, Monetary)
+The dataset used is `Online Retail.xlsx`, containing transactional data like:
+- Invoice date & customer identifier
+- Products purchased
+- Purchase frequency and monetary values
 
-* Customer segmentation & visualization
+---
 
-* Cohort retention calculation & heatmaps
+## Key Features
 
-* Business insights on customer behavior
+- 📌 Data cleaning & preprocessing  
+- 📌 Computing **RFM metrics**
+- 📌 Customer segmentation
+- 📌 Customer retention analysis using cohort tracking
+- 📌 Visualizations: heatmaps, bar charts, line plots
 
-# **Key Insights**
+---
 
-* Identifies **high-value customers** and **churn risks**.
+## Installation & Setup
 
-* Reveals **retention trends** using cohort tracking.
+1. Clone the repository: git clone https://github.com/Arrush5/RMF-Cohort-Analysis.git
+cd RMF-Cohort-Analysis
+2. Install required libraries: pip install pandas numpy matplotlib seaborn jupyter
 
-* Enables **data-driven retention and loyalty strategies**.
+---
 
-# **Technologies**
+## How to Run
+1. Launch Jupyter Notebook: jupyter notebook
+2. Open the notebook: RMF Cohort Analysis.ipynb
+3. Run cells sequentially to explore segmentation and retention results.
 
-Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter  
+---
+
+## Insights from Analysis
+- Identified high-value customer segments
+- Revealed customer retention trends over time
+- Determined churn risk segments
+- Visualized cohort retention heatmaps
+- Helped form data-driven strategies for marketing and engagement
+
+---
+
+## Business Applications
+- Tailored promotional campaigns for high-value customers
+- Re-engagement strategies for at-risk groups
+- Understanding life-cycle behavior of cohorts
+- Improving customer loyalty metrics
+
+---
+
+### Author
+Arrush
